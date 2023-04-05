@@ -1,0 +1,11 @@
+doctype html
+html(lang="en")
+    include templates/head.pug
+    body
+        div(class="wrapper")
+            include templates/header.pug
+            include templates/main.pug
+                
+            include templates/footer.pug
+
+    script(type="module", defer, src="./js/index.js")

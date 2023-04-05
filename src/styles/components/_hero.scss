@@ -1,0 +1,61 @@
+.hero {
+    height: 52.5rem;
+    background: url(/img/main/bcg-main.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    @media(max-width:1599.98px){
+        @include adaptiv(height, 52.5, 38.75)
+    }
+    @media(max-width:1024.98px){
+        // background-size: 100%;
+        @include adaptiv(height, 38.75, 30.75)
+    }
+    @media(max-width:768.98px){
+        // background-size: 100%;
+        @include adaptiv(height, 30, 25.75)
+    }
+    @media(max-width:425.98px){
+        // background-size: 100%;
+        @include adaptiv(height, 25, 20.75)
+    }
+    &__container{
+        height: inherit;
+    }
+    &__inner{
+        height: inherit;
+        display: flex;
+        align-items: center;
+        @media(max-width:450.98px){
+            justify-content: center;
+        }
+    }
+    &__main {
+        font-family: "Montserrat-Light", sans-serif;
+        color: white;
+        font-size: 3.75rem;
+        line-height: 160%;
+        @media(max-width:1440.98px){
+            @include adaptiv(font-size, 3.75, 3);
+        }
+        @media(max-width:1024.98px){
+            @include adaptiv(font-size, 3, 2.2);
+        }
+        @media(max-width:768.98px){
+            @include adaptiv(font-size, 2.2, 1.5);
+            line-height: 2.2rem;
+        }
+        @media(max-width:450.98px){
+            @include adaptiv(font-size, 1.5, 1.3);
+            line-height: 1.5rem;
+        }
+        @media(max-width:375.98px){
+            @include adaptiv(font-size, 1.3, 1.1);
+            line-height: 1.5rem;
+        }
+    }
+    &__subtitle{
+        font-family: "Montserrat-SemiBold";
+        margin-bottom: 4rem;
+        @include adaptiv-value(margin-bottom, 4, 1.5, 1)
+    }
+}

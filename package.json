@@ -1,0 +1,17 @@
+{
+  "name": "online web landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "parcel": "parcel src/index.pug --open",
+    "build": "parcel build src/index.pug -d docs --public-url ./"
+  },
+  "keywords": [],
+  "author": "Sanduliak A.A",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "pug": "^3.0.2"
+  }
+}

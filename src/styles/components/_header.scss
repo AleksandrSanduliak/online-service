@@ -1,0 +1,55 @@
+.header {
+    font-family: 'Montserrat-Medium';
+    white-space: nowrap;
+    padding: 2.813rem 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+
+    @media(max-width:940.98px) {
+        padding: 2rem 0;
+    }
+
+    @media(max-width:768.98px) {
+        padding: 1.4rem 0;
+    }
+
+    &__container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo {
+        margin-right: 1rem;
+
+        @media(max-width:768.98px) {
+            // @include adaptiv-value(width, 11.25, 9 ,1)
+            width: 9rem;
+        }
+    }
+
+    &__contacts {
+        display: inline-block;
+        flex: 0 0 186px;
+        @include adaptiv-value(margin-left, 6.25, 2.125, 1);
+
+        @media(max-width: 940.98px) {
+            margin-left: 0;
+            display: flex;
+            justify-items: flex-end;
+            width: 12.5rem;
+            flex: 0 1 20vw;
+        }
+
+        @media(max-width:540.98px) {
+            opacity: 0;
+            visibility: hidden;
+            width: 0;
+            height: 0;
+            font-size: 0;
+            line-height: 0;
+            flex: 0;
+        }
+    }
+}
