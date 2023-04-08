@@ -1,0 +1,31 @@
+.about {
+    font-family: "Montserrat-Light", sans-serif;
+    color: $primary;
+    font-size: 1.125rem;
+    line-height: 160%;
+
+    &__body {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    &__text {
+        max-width: 45.688rem;
+        padding-top: 3.15rem;
+
+        &-head {
+            margin-bottom: 1.875rem;
+            border: 0;
+            border-bottom: 0.5px;
+            border-style: solid;
+            border-image: $purple-grad;
+        }
+    }
+
+    &__imgwrap {
+        display: flex;
+        align-content: center;
+        justify-content: flex-end;
+        // flex: 1 1 auto;
+    }
+}

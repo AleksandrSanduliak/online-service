@@ -64,7 +64,35 @@ button {
   cursor: pointer;
 }
 
-body, html {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: "Montserrat-SemiBold", Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  line-height: 160%;
+  color: #2D2D2D;
+}
+@media (max-width: 1599.98px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 1599.98px) and (max-width: 103.125rem) {
+  h2 {
+    font-size: calc(1.8rem + 0.7 * ((100vw - 320px) / -216.875));
+  }
+}
+
+body,
+html {
   height: 100%;
   font-family: "Montserrat-Regular", sans-serif;
   font-size: 16px;
@@ -95,6 +123,15 @@ body, html {
 
 .main {
   flex: 1 1 auto;
+}
+
+.section-padding {
+  padding: 8.75rem 0;
+}
+@media (max-width: 1599.98px) {
+  .section-padding {
+    padding: 8vw 0;
+  }
 }
 
 .is-hidden {
@@ -152,6 +189,7 @@ body, html {
   position: absolute;
   left: 0;
   top: 0;
+  right: 0;
   width: 100%;
 }
 @media (max-width: 940.98px) {
@@ -492,6 +530,7 @@ body, html {
   color: white;
   font-size: 3.75rem;
   line-height: 160%;
+  font-weight: normal;
 }
 @media (max-width: 1440.98px) {
   .hero__main {
@@ -631,4 +670,31 @@ body, html {
   .btn {
     padding-right: calc(1.8rem + 0.2 * ((100vw - 320px) / -216.875));
   }
+}
+
+.about {
+  font-family: "Montserrat-Light", sans-serif;
+  color: #2D2D2D;
+  font-size: 1.125rem;
+  line-height: 160%;
+}
+.about__body {
+  display: flex;
+  align-items: flex-start;
+}
+.about__text {
+  max-width: 45.688rem;
+  padding-top: 3.15rem;
+}
+.about__text-head {
+  margin-bottom: 1.875rem;
+  border: 0;
+  border-bottom: 0.5px;
+  border-style: solid;
+  border-image: linear-gradient(45deg, #523789, rgba(82, 55, 137, 0)) 1;
+}
+.about__imgwrap {
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
 }/*# sourceMappingURL=main.css.map */

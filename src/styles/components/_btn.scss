@@ -2,27 +2,30 @@
     font-family: "Montserrat-Light";
     font-size: 1.5rem;
     line-height: 160%;
-    color:white;
+    color: white;
     background-color: $purple;
     transition: background-color 0.3s ease-in-out;
     border-radius: 2rem;
     padding: 1.313rem 3.7rem;
     // vertical-align: middle;
     @include adaptiv-value(font-size, 1.5, 1.2, 1);
+
     // @include adaptiv-value(line-height, 1.5, 1.2, 1);
-    &:hover{
-        background-color:$purple-hov;
+    &:hover {
+        background-color: $purple-hov;
     }
-    @media(max-width:1024.98px){
-       @include adaptiv(padding-top, 1.313, 1);
-       @include adaptiv(padding-bottom, 1.313, 1);
-       @include adaptiv(padding-left, 3.7, 2);
-       @include adaptiv(padding-right, 3.7, 2);
+
+    @media(max-width:1024.98px) {
+        @include adaptiv(padding-top, 1.313, 1);
+        @include adaptiv(padding-bottom, 1.313, 1);
+        @include adaptiv(padding-left, 3.7, 2);
+        @include adaptiv(padding-right, 3.7, 2);
     }
-    @media(max-width:475.98px){
+
+    @media(max-width:475.98px) {
         @include adaptiv(padding-top, 1, 0.7);
         @include adaptiv(padding-bottom, 1, 0.7);
         @include adaptiv(padding-left, 2, 1.8);
         @include adaptiv(padding-right, 2, 1.8);
-     }
+    }
 }
