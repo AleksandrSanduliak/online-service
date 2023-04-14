@@ -1,0 +1,13 @@
+.interview{
+    background-color:#F5F5F5;
+    padding: 5rem 0;
+    @media(max-width:1599.98px){
+        padding: 5vw 0;
+    }
+    &__text{
+        max-width: 50rem;
+        @media(max-width:800.98px){
+            max-width: none;
+        }
+    }
+}

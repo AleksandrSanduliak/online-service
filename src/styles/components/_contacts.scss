@@ -1,13 +1,12 @@
 .contacts {
-    white-space: nowrap;
-
+    
     &-number {
         font-family: 'Montserrat-Medium';
         font-size: 1.375rem;
         line-height: 1.688rem;
         color: $primary;
         transition: 0.5s ease color;
-
+        white-space: nowrap !important;
         &:hover {
             color: $primary-hov;
         }

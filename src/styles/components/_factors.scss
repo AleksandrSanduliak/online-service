@@ -1,0 +1,83 @@
+.factors{
+    &__title{
+        white-space: nowrap;
+    }
+    &__services{
+        display: flex;
+        align-items: center;
+        line-height: 120%;
+        color:white;
+        border-radius: 0.125rem;
+
+        margin-top: 3.75rem;
+        @media(max-width:991.98px){
+            flex-flow: wrap row;
+            align-items: center;
+            justify-content: center;
+        }
+        @media(max-width:768.98px){
+            margin-top: 2rem;
+        }
+
+        &--wrapper{
+            background-color: $purple;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 24.688rem;
+            height: 14.938rem;
+            padding: 0.5rem;
+            @include mr(1.25rem);
+
+            @media(max-width:1599.98px){
+                width: 25vw;
+                height: 30vh;
+                font-size: 1.3vw;
+            }
+            @media(max-width:991.98px){
+                width: 35vw;
+                font-size: 1.8vw;
+                @include mr(0);
+                &:nth-child(odd){
+                    margin-right: 5vw;
+                }
+                margin-bottom: 5vw;
+            }
+            @media(max-width:768.98px){
+                width: 40vw;
+                font-size: 2.35vw;
+                &:nth-child(odd){
+                    margin-right: 3vw;
+                }
+                margin-bottom: 3vw;
+            }
+            @media(max-width:550.98px){
+                width: 45vw;
+                font-size: 3.2vw;
+                &:nth-child(odd){
+                    margin-right: 3vw;
+                }
+                margin-bottom: 3vw;
+            }
+            @media(max-width:425.98px){
+                font-size: 0.9rem;
+            }
+            @media(max-width:375.98px){
+                width: 12.688rem;
+                &:nth-child(odd){
+                    margin-right: 0vw;
+                }
+                margin-bottom: 4vw;
+            }
+        }
+
+        &--img{
+            margin-bottom: 1.875rem;
+        }
+        &--text{
+            max-width: 19.813rem;
+        }
+    }
+}

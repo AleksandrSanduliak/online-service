@@ -1,0 +1,32 @@
+.order {
+    font-family: "Montserrat-Regular";
+    font-size: 1rem;
+    line-height: 160%;
+    &__container{
+        @media(max-width:768.98px){
+            padding: 0;
+        }
+    }
+    &__inner {
+        height: 40rem;
+        background: linear-gradient(269.89deg, #120D1E 1.57%, rgba(18, 13, 30, 0.83) 42.32%, rgba(18, 13, 30, 0) 81.46%), url(/img/main/order-bcg.webp) no-repeat 100%;
+        padding: 2.5rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        @media(max-width:768.98px){
+            height: 35rem;
+            padding: 1rem 0;
+            background-position: left;
+            align-items: flex-start;
+
+        }
+        @media(max-width:550.98px){
+            align-items: center;
+            justify-content: center;
+            background-position: bottom left;
+            padding: 1rem 1rem;
+        }
+    }
+}

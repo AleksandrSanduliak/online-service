@@ -3,23 +3,23 @@
     background: url(/img/main/bcg-main.webp);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-
+    margin-bottom: 8.75rem;
+    @media(max-width:1599.98px) {
+        margin-bottom: 8vw;
+      }
     @media(max-width:1599.98px) {
         @include adaptiv(height, 52.5, 38.75)
     }
 
     @media(max-width:1024.98px) {
-        // background-size: 100%;
         @include adaptiv(height, 38.75, 30.75)
     }
 
     @media(max-width:768.98px) {
-        // background-size: 100%;
         @include adaptiv(height, 30, 25.75)
     }
 
     @media(max-width:425.98px) {
-        // background-size: 100%;
         @include adaptiv(height, 25, 20.75);
     }
 
@@ -68,14 +68,7 @@
         }
     }
 
-    &__title {
-        // font-size: 3.75rem;
-        // line-height: 160%;
-    }
-
     &__subtitle {
-        // font-size: 3.75rem;
-        // line-height: 160%;
         font-family: "Montserrat-SemiBold";
         margin-bottom: 4rem;
         @include adaptiv-value(margin-bottom, 4, 1.5, 1);

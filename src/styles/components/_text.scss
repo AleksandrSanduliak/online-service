@@ -1,0 +1,8 @@
+.text {
+    &-block{
+        @include mb(1rem)
+    }
+    &-bold {
+        font-family: "Montserrat-Medium";
+    }
+}

@@ -7,10 +7,8 @@
     transition: background-color 0.3s ease-in-out;
     border-radius: 2rem;
     padding: 1.313rem 3.7rem;
-    // vertical-align: middle;
     @include adaptiv-value(font-size, 1.5, 1.2, 1);
 
-    // @include adaptiv-value(line-height, 1.5, 1.2, 1);
     &:hover {
         background-color: $purple-hov;
     }
@@ -27,5 +25,6 @@
         @include adaptiv(padding-bottom, 1, 0.7);
         @include adaptiv(padding-left, 2, 1.8);
         @include adaptiv(padding-right, 2, 1.8);
+        font-size: 1rem;
     }
 }
