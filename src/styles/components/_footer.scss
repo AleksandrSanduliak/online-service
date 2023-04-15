@@ -1,0 +1,29 @@
+.footer{
+    padding: 1rem 0;
+    background: #F5F5F5;
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    &-logo{
+        min-width: 6.25rem;
+        @media(max-width:600.98px){
+            max-width: 4.375rem;
+        }
+    }
+    &-contacts{
+        font-size: 2rem;
+        @media(max-width:600.98px){
+            font-size: 1.4rem;
+            margin-right: 0;
+        }
+        @media(max-width:425.98px){
+            font-size: 1.2rem;
+        }
+        @media(max-width:375.98px){
+            font-size: 1rem;
+        }
+    }
+}

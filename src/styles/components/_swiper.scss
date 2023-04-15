@@ -3,7 +3,9 @@
     height: 31.563rem;
     border-radius: 0.125rem;
     cursor: grab;
-
+    &-wrapper{
+        display: flex;
+    }
     @media(max-width:1440.98px) {
         height: 31.25rem;
     }

@@ -1,14 +1,27 @@
 .order {
     font-family: "Montserrat-Regular";
-    font-size: 1rem;
+
     line-height: 160%;
     &__container{
+        @media(max-width:991.98px){
+            padding: 0;
+            max-width: none;
+        }
         @media(max-width:768.98px){
             padding: 0;
+            // max-width: none;
         }
+    }
+    &-text{
+        font-family: "Montserrat-Light";
+        &:nth-child(3){
+            margin-bottom: 1.5rem;
+        }
+
     }
     &__inner {
         height: 40rem;
+        font-size: 1rem;
         background: linear-gradient(269.89deg, #120D1E 1.57%, rgba(18, 13, 30, 0.83) 42.32%, rgba(18, 13, 30, 0) 81.46%), url(/img/main/order-bcg.webp) no-repeat 100%;
         padding: 2.5rem 0;
         display: flex;

@@ -92,7 +92,7 @@ h2 {
 }
 @media (max-width: 1599.98px) and (max-width: 103.125rem) {
   h2 {
-    font-size: calc(1.8rem + 0.7 * ((100vw - 320px) / -216.875));
+    font-size: calc(1.7rem + 0.8 * ((100vw - 320px) / -216.875));
   }
 }
 
@@ -107,6 +107,7 @@ html {
   margin: 0 auto;
   padding: 0 1.5rem;
   max-width: 1645px;
+  overflow: hidden;
 }
 @media (max-width: 940.98px) {
   [class*=_container] {
@@ -117,6 +118,12 @@ html {
   [class*=_container] {
     max-width: none;
     padding: 0 0.7rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  section > div > h2, p {
+    padding: 0 0.5rem;
   }
 }
 
@@ -510,6 +517,9 @@ section {
   }
 }
 
+.text {
+  font-family: "Montserrat-Light";
+}
 .text-block:not(:last-child) {
   margin-bottom: 1rem;
 }
@@ -669,7 +679,7 @@ section {
     font-size: calc(1.2rem + 0.3 * ((100vw - 320px) / -216.875));
   }
 }
-.btn:hover {
+.btn:hover, .btn:active, .btn:focus {
   background-color: #49288b;
 }
 @media (max-width: 1024.98px) {
@@ -808,6 +818,9 @@ section {
   border-radius: 0.125rem;
   cursor: grab;
 }
+.swiper-wrapper {
+  display: flex;
+}
 @media (max-width: 1440.98px) {
   .swiper {
     height: 31.25rem;
@@ -857,16 +870,28 @@ section {
 
 .order {
   font-family: "Montserrat-Regular";
-  font-size: 1rem;
   line-height: 160%;
+}
+@media (max-width: 991.98px) {
+  .order__container {
+    padding: 0;
+    max-width: none;
+  }
 }
 @media (max-width: 768.98px) {
   .order__container {
     padding: 0;
   }
 }
+.order-text {
+  font-family: "Montserrat-Light";
+}
+.order-text:nth-child(3) {
+  margin-bottom: 1.5rem;
+}
 .order__inner {
   height: 40rem;
+  font-size: 1rem;
   background: linear-gradient(269.89deg, #120D1E 1.57%, rgba(18, 13, 30, 0.83) 42.32%, rgba(18, 13, 30, 0) 81.46%), url(/img/main/order-bcg.webp) no-repeat 100%;
   padding: 2.5rem 0;
   display: flex;
@@ -1061,12 +1086,16 @@ section {
   max-width: 19.813rem;
 }
 
+@media (max-width: 570.98px) {
+  .experts__container {
+    padding: 0rem 0rem !important;
+  }
+}
 .experts__block {
   margin-top: 6.25rem;
   font-family: "Montserrat-SemiBold";
   line-height: 160%;
-  background: #F5F5F5;
-  outline: 0.875rem solid #F5F5F5;
+  background: white;
   color: #2D2D2D;
   margin-top: 6.25rem;
 }
@@ -1118,7 +1147,7 @@ section {
 }
 @media (max-width: 375.98px) {
   .experts__img {
-    max-width: 20rem;
+    max-width: 17rem;
     max-height: 18.75rem;
     margin-bottom: 6vw;
   }
@@ -1149,6 +1178,9 @@ section {
   align-items: center;
   border: 0.125rem solid rgb(63, 60, 60);
   border-radius: 0.125rem;
+  margin-bottom: 3.5rem;
+  background: #F5F5F5;
+  outline: 0.875rem solid #F5F5F5;
 }
 @media (max-width: 1280.98px) {
   .experts__main {
@@ -1164,6 +1196,12 @@ section {
   .experts__main {
     max-height: 18.75rem;
     padding: 0.3rem 0.3rem 0 0.3rem;
+  }
+}
+@media (max-width: 570.98px) {
+  .experts__main {
+    max-height: 18.75rem;
+    padding: 0.3rem 0.3rem 1rem 0.3rem;
   }
 }
 @media (max-width: 570.98px) {
@@ -1286,6 +1324,11 @@ section {
     font-size: 0.8rem;
   }
 }
+@media (max-width: 768.98px) {
+  .experts__info:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+}
 @media (max-width: 425.98px) {
   .experts__info {
     line-height: 120%;
@@ -1318,5 +1361,167 @@ section {
 @media (max-width: 1280.98px) {
   .experts__info-minibold {
     font-size: 0.8rem;
+  }
+}
+.experts__bottom-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 550.98px) {
+  .experts__bottom-wrapper {
+    flex-flow: column;
+  }
+}
+.experts__bottom-comandtitle {
+  font-family: "Montserrat-SemiBold";
+  font-size: 2.5rem;
+  line-height: 160%;
+  color: #2D2D2D;
+  margin-bottom: 2.5rem;
+}
+@media (max-width: 1280.98px) {
+  .experts__bottom-comandtitle {
+    font-size: 2rem;
+    line-height: 140%;
+  }
+}
+@media (max-width: 991.98px) {
+  .experts__bottom-comandtitle {
+    font-size: 1.5rem;
+    line-height: 140%;
+    margin-bottom: 1.5rem;
+  }
+}
+@media (max-width: 940.98px) {
+  .experts__bottom-comandtitle {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 991.98px) {
+  .experts__bottom-comandsvg {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media (max-width: 940.98px) {
+  .experts__bottom-comandsvg {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media (max-width: 550.98px) {
+  .experts__bottom-comandsvg {
+    width: 150px;
+    height: 150px;
+  }
+}
+.experts__bottom-block {
+  max-width: 487px;
+}
+@media (max-width: 1440.98px) {
+  .experts__bottom-block {
+    width: 30vw;
+    height: 35vw;
+  }
+}
+@media (max-width: 940.98px) {
+  .experts__bottom-block {
+    width: 25vw;
+    height: 33vw;
+  }
+}
+@media (max-width: 768.98px) {
+  .experts__bottom-block {
+    width: 30vw;
+    height: 40vw;
+  }
+}
+@media (max-width: 550.98px) {
+  .experts__bottom-block {
+    width: 60vw;
+    height: 70vw;
+  }
+}
+@media (max-width: 425.98px) {
+  .experts__bottom-block {
+    width: 80vw;
+    height: 90vw;
+  }
+}
+.experts__bottom-comand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 550.98px) {
+  .experts__bottom-comand {
+    width: 100%;
+    margin: 1.5rem 0 2.3rem 0;
+  }
+}
+@media (max-width: 370.98px) {
+  .experts__bottom-comand {
+    width: 100%;
+    margin: 2rem 0 2.3rem 0;
+  }
+}
+.experts__bottom-name {
+  font-family: "Montserrat-Medium";
+  font-size: 1.25rem;
+  line-height: 160%;
+}
+@media (max-width: 991.98px) {
+  .experts__bottom-name {
+    font-size: 1rem;
+  }
+}
+.experts__bottom-job {
+  color: #6C6E70;
+  font-family: "Montserrat-Light";
+  font-size: 1rem;
+  line-height: 140%;
+}
+@media (max-width: 991.98px) {
+  .experts__bottom-job {
+    font-size: 0.8rem;
+  }
+}
+
+.footer {
+  padding: 1rem 0;
+  background: #F5F5F5;
+}
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-logo {
+  min-width: 6.25rem;
+}
+@media (max-width: 600.98px) {
+  .footer-logo {
+    max-width: 4.375rem;
+  }
+}
+.footer-contacts {
+  font-size: 2rem;
+}
+@media (max-width: 600.98px) {
+  .footer-contacts {
+    font-size: 1.4rem;
+    margin-right: 0;
+  }
+}
+@media (max-width: 425.98px) {
+  .footer-contacts {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 375.98px) {
+  .footer-contacts {
+    font-size: 1rem;
   }
 }/*# sourceMappingURL=main.css.map */

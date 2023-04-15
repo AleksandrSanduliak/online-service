@@ -1,15 +1,15 @@
 section#experts.experts.section-padding 
     .experts__container 
-        h2 Эксперты
-        p.text Наши эксперты готовы провести аудит Вашего бизнеса по всем критериям, провести
-        p.text анализ конкурентов и разработать план мероприятий по увеличению уровня продаж
+        h2(data-aos="fade-down" data-aos-delay="50" data-aos-duration="1000") Эксперты
+        p.text(data-aos="fade-down" data-aos-delay="50" data-aos-duration="1000") Наши эксперты готовы провести аудит Вашего бизнеса по всем критериям, провести
+        p.text(data-aos="fade-down" data-aos-delay="50" data-aos-duration="1000") анализ конкурентов и разработать план мероприятий по увеличению уровня продаж
         
         .experts__block 
             .experts__main 
                 .experts__horizontal
                     span.experts__main-hori Генеральный директор Digital-компании Онлайн-Сервис
-                img(class="experts__img", src="/img/main/experts-1.webp", width="698", height="654" loading="lazy" alt="Директор Дмитрий Гуленок")
-                .experts__textwrap 
+                img(data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000" class="experts__img", src="/img/main/experts-1.webp", width="698", height="654" loading="lazy" alt="Директор Дмитрий Гуленок")
+                .experts__textwrap(data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000")
                     .experts__text 
                         p.experts__title Дмитрий Гуленок
                         
@@ -46,5 +46,19 @@ section#experts.experts.section-padding
                             | внедрений Битрикс24.CRM
 
             .experts__bottom 
+                .experts__bottom-wrapper 
+                    .experts__bottom-block(data-aos="fade-left" data-aos-delay="50" data-aos-duration="1500")
+                        img(src="/img/main/experts-2.webp" alt="Фото сотрудников" width="487" height="434" class="experts__bottom-comandimg")
+                        p.text-bold.experts__bottom-name Сергей Ковширов
+                        p.experts__bottom-job Ведущий специалист отдела маркетинга
+
+                    .experts__bottom-comand
+                        p.experts__bottom-comandtitle Команда лучших
+                        img(src="/img/main/experts-4.svg" alt="Фото сотрудников" width="200" height="200" class="experts__bottom-comandsvg")   
+                
+                    .experts__bottom-block(data-aos="fade-right" data-aos-delay="50" data-aos-duration="1500")
+                        img(src="/img/main/experts-3.webp" alt="Фото сотрудников" width="487" height="434" class="experts__bottom-comandimg")
+                        p.text-bold.experts__bottom-name Вячеслав Лебедев
+                        p.experts__bottom-job Менеджер отдела продаж
 
 

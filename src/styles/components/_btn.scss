@@ -9,7 +9,7 @@
     padding: 1.313rem 3.7rem;
     @include adaptiv-value(font-size, 1.5, 1.2, 1);
 
-    &:hover {
+    &:hover, &:active, &:focus {
         background-color: $purple-hov;
     }
 

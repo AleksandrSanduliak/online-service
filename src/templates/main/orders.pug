@@ -1,0 +1,21 @@
+section.order.section-padding
+    .order__container
+        h2 Оставьте заявку
+        p.order-text Оставляйте заявку на нашем сайте и получите бесценную информацию для развития 
+        p.order-text Вашего предприятия!
+        .order__inner 
+            form(action="#", class="form")
+                label(for="title" class="form__title") Оставьте заявку
+                label(for="name") Имя
+                input(type="text" name="name" class="input-reset form__input" aria-label="Имя для заявки" aria-labelledby="Имя для заявки" aria-describedby="Имя компании" placeholder="Имя")
+
+                label(for="phone" ) Телефон
+                input(type="tel" name="phone" class="input-reset form__input" aria-label="Телефон для заявки" aria-labelledby="Номер телефона для заявки" aria-describedby="Номер телефона" value="+7")
+
+                label(for="email" ) E-mail
+                input(type="email" name="email" class="input-reset form__input" aria-label="Почта для заявки" aria-labelledby="Почта для заявки"  aria-describedby="Почта" placeholder="info@mail.ru")
+
+                label(for="company-name" ) Название компании
+                input(type="text" name="company-name" class="input-reset form__input" aria-label="Название компании для заявки" aria-labelledby="Название компании"  aria-describedby="Название компании" placeholder="IT")
+
+                button(class="btn-reset btn" type="submit") Заказать разбор

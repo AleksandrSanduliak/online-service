@@ -1,7 +1,8 @@
 window.onload = () => {
     const interviewBlock = document.querySelector('#interview')
     const opt = {
-        rootMargin: '50px 0px 0px 0px',
+        rootMargin: '50px 0px 550px 0px',
+        threshold: [0, 0.5, 1],
     }
     const swiperFN = (entries, observer) => {
 
