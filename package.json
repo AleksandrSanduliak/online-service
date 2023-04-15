@@ -17,6 +17,7 @@
     "pug": "^3.0.2"
   },
   "dependencies": {
-    "aos": "^3.0.0-beta.6"
+    "aos": "^3.0.0-beta.6",
+    "parcel-plugin-wrapper": "^0.2.3"
   }
 }
