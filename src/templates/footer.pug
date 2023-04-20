@@ -2,6 +2,15 @@ footer(class="footer")
     .footer__container 
         a(class="",href="./")
             img(class="logo footer-logo", src="./img/logo.svg" loading="lazyload" width="180" height="85.34" alt="Логотип Online-Service")
-        div(class="")
+        nav.footer__nav
+            ul(class="list-reset menu__list footer__menu")
+                li(class="menu__item footer__menu--item")
+                    a(href="#about",  aria-label="Наша компания", class="menu__link", data-menu-item) О компании
+                li(class="menu__item  footer__menu--item")
+                    a(href="#interview",  aria-label="Наши интервью", class="menu__link", data-menu-item) Интервью
+                li(class="menu__item  footer__menu--item")
+                    a(href="#factors  footer__menu--item", aria-label="Наши Факторы", class="menu__link", data-menu-item) Факторы
+                li(class="menu__item  footer__menu--item")
+                    a(href="#experts",  aria-label="Наши Эксперты", class="menu__link", data-menu-item) Эксперты
+        div(class="footer-contacts--wrap")
             a(class="contacts-number footer-contacts", href="tel:+7 800 200 30 71") +7 800 200 30 71
-            

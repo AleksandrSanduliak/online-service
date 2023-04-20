@@ -1,20 +1,3 @@
-
-// windows.onload = async() => {
-//     // const linkAos = document.createElement('link')
-//     // linkAos.type = 'text/css'
-//     // linkAos.rel = 'stylesheet'
-//     // linkAos.href = 'https://unpkg.com/aos@next/dist/aos.css'
-
-//     // const scriptAos = document.createElement('script')
-//     // scriptAos.defer = true
-//     // scriptAos.src = 'https://unpkg.com/aos@next/dist/aos.js'
-
-//     scriptAos.onload = () => {
-//         AOS.init();
-//         console.log('aos init')
-//     }
-// }
-
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 // AOS.init();

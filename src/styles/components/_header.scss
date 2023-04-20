@@ -28,7 +28,7 @@
 
     &__logo {
         margin-right: 1rem;
-
+        max-height: 85px;
         @media(max-width:768.98px) {
             width: 9rem;
         }

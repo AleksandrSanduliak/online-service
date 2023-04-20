@@ -70,7 +70,20 @@
 
     &__subtitle {
         font-family: "Montserrat-SemiBold";
-        margin-bottom: 4rem;
-        @include adaptiv-value(margin-bottom, 4, 1.5, 1);
+    }
+    &__btn{
+        margin-top: 80px;
+        @media(max-width:1600.98px){
+            margin-top: 60px;
+        }
+        @media(max-width:768.98px){
+            margin-top: 7vw;
+        }
+        @media(max-width:450.98px){
+            margin-top: 10vw;
+        }
+        @media(max-width:375.98px){
+            margin-top: 15vw;
+        }
     }
 }
