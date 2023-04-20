@@ -660,11 +660,11 @@ section {
   font-family: "Montserrat-SemiBold";
 }
 .hero__btn {
-  margin-top: 80px;
+  margin-top: 5rem;
 }
 @media (max-width: 1600.98px) {
   .hero__btn {
-    margin-top: 60px;
+    margin-top: 3.75rem;
   }
 }
 @media (max-width: 768.98px) {
@@ -1639,7 +1639,7 @@ section {
   .footer__menu {
     flex-direction: column;
     justify-content: center;
-    flex: 1 1 100px;
+    flex: 1 1 6.25rem;
   }
 }
 @media (max-width: 1070.98px) {
@@ -1673,7 +1673,7 @@ section {
 .footer-contacts--wrap {
   display: flex;
   justify-items: flex-end;
-  flex: 0 1 184px;
+  flex: 0 1 11.5rem;
 }
 @media (max-width: 991.98px) {
   .footer-contacts--wrap {
