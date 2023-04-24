@@ -168,15 +168,11 @@ function reloadCSS() {
   }, 50);
 }
 module.exports = reloadCSS;
-},{"./bundle-url":"../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"styles/vendor/normalize.css":[function(require,module,exports) {
+},{"./bundle-url":"../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"main.66fd80d9.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/main.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"./vendor/normalize.css":"styles/vendor/normalize.css","./..\\fonts\\Monserrat\\Montserrat-Light.woff2":[["Montserrat-Light.f3d92aec.woff2","fonts/Monserrat/Montserrat-Light.woff2"],"fonts/Monserrat/Montserrat-Light.woff2"],"./..\\fonts\\Monserrat\\Montserrat-Light.woff":[["Montserrat-Light.8bcd6b2d.woff","fonts/Monserrat/Montserrat-Light.woff"],"fonts/Monserrat/Montserrat-Light.woff"],"./..\\fonts\\Monserrat\\Montserrat-Regular.woff2":[["Montserrat-Regular.7d006e98.woff2","fonts/Monserrat/Montserrat-Regular.woff2"],"fonts/Monserrat/Montserrat-Regular.woff2"],"./..\\fonts\\Monserrat\\Montserrat-Regular.woff":[["Montserrat-Regular.8574e8dd.woff","fonts/Monserrat/Montserrat-Regular.woff"],"fonts/Monserrat/Montserrat-Regular.woff"],"./..\\fonts\\Monserrat\\Montserrat-Medium.woff2":[["Montserrat-Medium.f4651687.woff2","fonts/Monserrat/Montserrat-Medium.woff2"],"fonts/Monserrat/Montserrat-Medium.woff2"],"./..\\fonts\\Monserrat\\Montserrat-Medium.woff":[["Montserrat-Medium.09254d90.woff","fonts/Monserrat/Montserrat-Medium.woff"],"fonts/Monserrat/Montserrat-Medium.woff"],"./..\\fonts\\Monserrat\\Montserrat-SemiBold.woff2":[["Montserrat-SemiBold.d8827954.woff2","fonts/Monserrat/Montserrat-SemiBold.woff2"],"fonts/Monserrat/Montserrat-SemiBold.woff2"],"./..\\fonts\\Monserrat\\Montserrat-SemiBold.woff":[["Montserrat-SemiBold.a78d0d43.woff","fonts/Monserrat/Montserrat-SemiBold.woff"],"fonts/Monserrat/Montserrat-SemiBold.woff"],"./..\\fonts\\Monserrat\\Montserrat-Bold.woff2":[["Montserrat-Bold.77f65636.woff2","fonts/Monserrat/Montserrat-Bold.woff2"],"fonts/Monserrat/Montserrat-Bold.woff2"],"./..\\fonts\\Monserrat\\Montserrat-Bold.woff":[["Montserrat-Bold.dfbe56d4.woff","fonts/Monserrat/Montserrat-Bold.woff"],"fonts/Monserrat/Montserrat-Bold.woff"],"C:\\Users\\user\\Desktop\\javascript\\onlie\\src\\img\\main\\bcg-main.webp":[["bcg-main.d3e69707.webp","img/main/bcg-main.webp"],"img/main/bcg-main.webp"],"C:\\Users\\user\\Desktop\\javascript\\onlie\\src\\img\\main\\order-bcg.webp":[["order-bcg.3bec740f.webp","img/main/order-bcg.webp"],"img/main/order-bcg.webp"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./Montserrat-Light.ef555246.woff2":[["Montserrat-Light.ef555246.00f7c85b.woff2","Montserrat-Light.ef555246.woff2"],"Montserrat-Light.ef555246.woff2"],"./Montserrat-Light.db6d6843.woff":[["Montserrat-Light.db6d6843.c61fa192.woff","Montserrat-Light.db6d6843.woff"],"Montserrat-Light.db6d6843.woff"],"./Montserrat-Regular.d300f8c0.woff2":[["Montserrat-Regular.d300f8c0.49dab4ed.woff2","Montserrat-Regular.d300f8c0.woff2"],"Montserrat-Regular.d300f8c0.woff2"],"./Montserrat-Regular.03196c81.woff":[["Montserrat-Regular.03196c81.81b018e9.woff","Montserrat-Regular.03196c81.woff"],"Montserrat-Regular.03196c81.woff"],"./Montserrat-Medium.7c91a026.woff2":[["Montserrat-Medium.7c91a026.918ace0d.woff2","Montserrat-Medium.7c91a026.woff2"],"Montserrat-Medium.7c91a026.woff2"],"./Montserrat-Medium.e637c8fd.woff":[["Montserrat-Medium.e637c8fd.5d35f8cb.woff","Montserrat-Medium.e637c8fd.woff"],"Montserrat-Medium.e637c8fd.woff"],"./Montserrat-SemiBold.d85096cf.woff2":[["Montserrat-SemiBold.d85096cf.b74a392d.woff2","Montserrat-SemiBold.d85096cf.woff2"],"Montserrat-SemiBold.d85096cf.woff2"],"./Montserrat-SemiBold.c6df3846.woff":[["Montserrat-SemiBold.c6df3846.cca2a08e.woff","Montserrat-SemiBold.c6df3846.woff"],"Montserrat-SemiBold.c6df3846.woff"],"./Montserrat-Bold.7c92cbf0.woff2":[["Montserrat-Bold.7c92cbf0.0a72f4fd.woff2","Montserrat-Bold.7c92cbf0.woff2"],"Montserrat-Bold.7c92cbf0.woff2"],"./Montserrat-Bold.949ee724.woff":[["Montserrat-Bold.949ee724.eb3b087f.woff","Montserrat-Bold.949ee724.woff"],"Montserrat-Bold.949ee724.woff"],"./bcg-main.32becfbc.webp":[["bcg-main.32becfbc.dd0797b4.webp","bcg-main.32becfbc.webp"],"bcg-main.32becfbc.webp"],"./order-bcg.574fb937.webp":[["order-bcg.574fb937.ec479e2e.webp","order-bcg.574fb937.webp"],"order-bcg.574fb937.webp"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -201,7 +197,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50665" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55667" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
@@ -346,4 +342,4 @@ function hmrAcceptRun(bundle, id) {
   }
 }
 },{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/main.d2070829.js.map
+//# sourceMappingURL=/main.66fd80d9.00d910cc.js.map

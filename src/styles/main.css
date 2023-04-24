@@ -843,60 +843,67 @@ section {
   }
 }
 
-.swiper {
-  width: 100%;
-  height: 31.563rem;
-  border-radius: 0.125rem;
-  cursor: grab;
-}
-.swiper-wrapper {
+.card__wrapper {
   display: flex;
+  justify-content: center;
+  width: 100%;
 }
-@media (max-width: 1440.98px) {
-  .swiper {
-    height: 31.25rem;
-  }
-}
-@media (max-width: 1280.98px) {
-  .swiper {
-    height: 30.875rem;
-  }
-}
-@media (max-width: 991.98px) {
-  .swiper {
-    max-width: 53.125rem;
-    height: 22rem;
-  }
-}
-@media (max-width: 768.98px) {
-  .swiper {
-    height: 19.375rem;
-  }
-}
-@media (max-width: 320.98px) {
-  .swiper {
-    min-height: 15.625rem;
-  }
-}
-@media (max-width: 320.98px) {
-  .swiper {
-    min-height: 15.625rem;
+@media (max-width: 576.98px) {
+  .card__wrapper {
+    flex-wrap: wrap;
   }
 }
 
 .card {
   max-width: 33.313rem;
+  flex-basis: calc(33.33% - 20px);
 }
-@media (max-width: 991.98px) {
+.card:not(:last-child) {
+  margin-right: 1.25rem;
+}
+@media (max-width: 576.98px) {
   .card {
-    max-width: 18.75rem;
+    flex: 51%;
+    width: 30rem;
+  }
+  .card:not(:last-child) {
+    margin-right: 0;
+  }
+  .card:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 425.98px) {
+  .card {
+    padding: 0 1rem;
+  }
+  .card:not(:last-child) {
+    margin-bottom: 1.75rem;
   }
 }
 .card__img {
   object-fit: cover;
 }
+@media (max-width: 576.98px) {
+  .card__img {
+    width: 25rem;
+  }
+}
 .card__name {
   margin-top: 1.25rem;
+}
+@media (max-width: 940.98px) {
+  .card__name {
+    margin-top: 0.7rem;
+  }
+}
+@media (max-width: 768.98px) {
+  .card__name {
+    margin-top: 0.7rem;
+  }
+}
+.card__name, .card__job {
+  padding: 0 0.5rem 0 0;
 }
 
 .order {

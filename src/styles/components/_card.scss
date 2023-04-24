@@ -1,0 +1,77 @@
+// .swiper {
+//     width: 100%;
+//     height: 31.563rem;
+//     border-radius: 0.125rem;
+//     cursor: grab;
+//     &-wrapper{
+//         display: flex;
+//     }
+//     @media(max-width:1440.98px) {
+//         height: 31.25rem;
+//     }
+
+//     @media(max-width:1280.98px) {
+//         height: 30.875rem;
+//     }
+
+//     @media(max-width:991.98px) {
+//         max-width: 53.125rem;
+//         height: 22rem;
+//     }
+
+//     @media(max-width:768.98px) {
+//         height: 19.375rem;
+//     }
+
+//     @media(max-width:320.98px) {
+//         min-height: 15.625rem;
+//     }
+
+//     @media(max-width:320.98px) {
+//         min-height: 15.625rem;
+//     }
+// }
+
+.card__wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    @media (max-width: (576.98px)) {
+        flex-wrap: wrap;
+    }
+}
+.card {
+    max-width: 33.313rem;
+    flex-basis: calc(33.33% - 30px * 2/3);
+    @include mr(1.25rem);
+    @media (max-width: (576.98px)) {
+        @include mr(0);
+        @include mb(2rem);
+        flex: 51%;
+        width: 30rem;
+    }
+    @media (max-width: (425.98px)) {
+        padding: 0 1rem;
+        @include mb(1.75rem);
+    }
+    &__img {
+        object-fit: cover;
+        @media (max-width: (576.98px)) {
+            width: 25rem;
+        }
+    }
+
+    &__name {
+        margin-top: 1.25rem;
+        @media(max-width:940.98px) {
+            margin-top: 0.7rem;
+        }
+        @media(max-width:768.98px) {
+            margin-top: 0.7rem;
+        }
+    }
+    &__name, &__job{
+        padding: 0 0.5rem 0 0;
+    }
+
+}
